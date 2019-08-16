@@ -177,6 +177,7 @@ nav {
   nav {
     justify-content: center;
     width: 100%;
+    padding-top: 3%;
   }
 }
 nav .container {
@@ -194,6 +195,11 @@ nav .container h1 {
   text-align: center;
   font-size: 3.5rem;
   padding-bottom: 3%;
+}
+@media (max-width: 500px) {
+  nav .container h1 {
+    font-size: 4rem;
+  }
 }
 nav .container .links {
   display: flex;
