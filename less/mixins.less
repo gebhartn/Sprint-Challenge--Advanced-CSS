@@ -1,1 +1,21 @@
 // Mixins Here
+
+.myLinks {
+  color: @river-bend;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.myButton(@font, @size, @height) {
+  background-color: @btn-bg-color;
+  text-decoration: none;
+  color: white;
+  font-size: @font;
+  width: @size;
+  height: @height;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+}
