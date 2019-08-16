@@ -1,5 +1,5 @@
 .myLinks {
-  color: #454A59;
+  color: #454a59;
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 600;
@@ -141,7 +141,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
+  color: #5e6164;
 }
 h1,
 h2,
@@ -149,7 +149,7 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: #23293B;
+  color: #23293b;
 }
 h2 {
   font-size: 3.2rem;
@@ -168,10 +168,10 @@ p {
 }
 nav {
   padding-top: 1%;
-  color: #454A59;
-  background: #F6F6F6;
+  color: #454a59;
+  background: #f6f6f6;
   display: flex;
-  border-bottom: 1px solid #F1F1F1;
+  border-bottom: 1px solid #f1f1f1;
 }
 nav .container {
   align-items: center;
@@ -191,7 +191,7 @@ nav .container .links {
   padding-bottom: 1%;
 }
 nav .container .links a {
-  color: #454A59;
+  color: #454a59;
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 600;
@@ -255,7 +255,7 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  background-color: #22283A;
+  background-color: #22283a;
   width: 25%;
   display: flex;
   align-items: center;
