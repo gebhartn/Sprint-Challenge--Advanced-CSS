@@ -7,18 +7,15 @@
   font-weight: 600;
 }
 
-.myButton(@width, @fontsize) {
+.myButton(@font, @size, @height) {
   background-color: @btn-bg-color;
-  width: @width;
-  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: @font;
+  width: @size;
+  height: @height;
   align-items: center;
   justify-content: center;
+  display: flex;
   border-radius: 5px;
-
-  a {
-    margin: 12%;
-    text-decoration: none;
-    color: white;
-    font-size: @fontsize;
-  }
 }
