@@ -1,12 +1,22 @@
 // Home Content
 
 .home {
+  @media @phone {
+    display: flex;
+    flex-direction: column;
+  }
   .image-container {
     width: 100%;
+    display: flex;
+    justify-content: center;
 
     img {
       border-radius: 5px;
       width: 100%;
+
+      @media @phone {
+        width: 95%;
+      }
     }
   }
 
@@ -25,11 +35,19 @@
     flex-wrap: wrap;
     width: 100%;
 
+    @media @phone {
+      flex-direction: column;
+    }
+
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      @media @phone {
+        width: 95%;
+      }
     }
   }
 
