@@ -1,1 +1,36 @@
 // Navigation code here
+
+nav {
+  padding-top: 1%;
+  color: @river-bend;
+  background: @wild-sand;
+  display: flex;
+  border-bottom: 1px solid @sea-shell;
+
+  .container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: column wrap;
+
+    h1 {
+      text-align: center;
+      font-size: 3.5rem;
+      padding-bottom: 3%;
+    }
+
+    .links {
+      display: flex;
+      width: 50%;
+      justify-content: space-evenly;
+      padding-bottom: 1%;
+
+      a {
+        color: @river-bend;
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
