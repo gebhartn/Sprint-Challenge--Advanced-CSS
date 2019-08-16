@@ -35,6 +35,13 @@
     flex-wrap: wrap;
     width: 100%;
 
+    .sky,
+    .launch {
+      @media @phone {
+        display: none;
+      }
+    }
+
     @media @phone {
       flex-direction: column;
     }
