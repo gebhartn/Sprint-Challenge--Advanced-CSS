@@ -173,11 +173,22 @@ nav {
   display: flex;
   border-bottom: 1px solid #f1f1f1;
 }
+@media (max-width: 500px) {
+  nav {
+    justify-content: center;
+    width: 100%;
+  }
+}
 nav .container {
   align-items: center;
   justify-content: center;
   display: flex;
   flex-flow: column wrap;
+}
+@media (max-width: 500px) {
+  nav .container {
+    width: 100%;
+  }
 }
 nav .container h1 {
   text-align: center;
@@ -189,6 +200,11 @@ nav .container .links {
   width: 50%;
   justify-content: space-evenly;
   padding-bottom: 1%;
+}
+@media (max-width: 500px) {
+  nav .container .links {
+    width: 80%;
+  }
 }
 nav .container .links a {
   color: #454a59;
@@ -211,6 +227,7 @@ footer {
 }
 .home .image-container img {
   border-radius: 5px;
+  width: 100%;
 }
 .home .intro h2 {
   padding: 15px;
@@ -256,14 +273,14 @@ footer {
 }
 .home .walk .walk-text .btn {
   background-color: #22283a;
-  width: 25%;
+  width: 27%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4%;
   border-radius: 5px;
 }
 .home .walk .walk-text .btn a {
+  margin: 12%;
   text-decoration: none;
   color: white;
   font-size: 1.6rem;

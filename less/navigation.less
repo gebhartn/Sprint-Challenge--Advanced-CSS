@@ -7,11 +7,20 @@ nav {
   display: flex;
   border-bottom: 1px solid @sea-shell;
 
+  @media @mobile {
+    justify-content: center;
+    width: 100%;
+  }
+
   .container {
     align-items: center;
     justify-content: center;
     display: flex;
     flex-flow: column wrap;
+
+    @media @mobile {
+      width: 100%;
+    }
 
     h1 {
       text-align: center;
@@ -25,11 +34,12 @@ nav {
       justify-content: space-evenly;
       padding-bottom: 1%;
 
+      @media @mobile {
+        width: 80%;
+      }
+
       a {
-        color: @river-bend;
-        text-decoration: none;
-        font-size: 1.4rem;
-        font-weight: 600;
+        .myLinks();
       }
     }
   }
