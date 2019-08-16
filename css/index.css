@@ -1,3 +1,23 @@
+.myLinks {
+  color: #454A59;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.btn {
+  background-color: #22283A;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+  border-radius: 5px;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -199,6 +219,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .image-container {
+  width: 100%;
+}
+.home .image-container img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
